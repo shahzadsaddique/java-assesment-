@@ -1,0 +1,33 @@
+Hi Muzammil,
+
+Please find below the Trial Assignment questions.
+
+Q1 - Please develop a Spring Boot based REST API project, which exposes the following operations
+
+a) Login functionality through REST APIs using JWT token based authentication, the subsequent operations should not work without login
+b) Log out API which should log the user out and prevent the further API usage without login
+c) An API which take a String as input and returns it in reverse order only using recursion
+d) An API which takes string as input and calculate all permutations of string WITHOUT using recursion.
+e) An API that takes 3 strings as input and check if 3rd string is valid shuffle of first two strings. Third String is said to be a shuffle of first and second if it can be formed by interleaving the characters of first and second String in a way that maintains the left to right ordering of the characters from each string.
+For example, given first = "abc" and second = "def",  third = "dabecf"  is a valid shuffle since it preserves the character ordering of the two strings. So, given these 3 strings write a function that detects whether the third String is a valid shuffle of first and second String.
+f) APIs should have all the validations in place, e.g. It should only accept valid Strings, and no invalid characters i.e. null or empty. API should send back clear message specifying that the input is not in correct format.
+g) All the API responses should be in valid JSON format
+
+Q2 - Take the project built in Q1, and apply Spring Cache on all API's, e.g. After applying cache, the response of API should be faster the 2nd time, because result is already cached.
+a) Please use java timer to calculate the response time before cache and after cache and send us the results. 
+
+Q3 - Take the project built in Q2, and integrate the database using Hibernate at backend, and store all the results in database table.
+a) e.g. For each request, store the following values in database, Number1, Number2, Operation, and result
+b) Upon each API request, first check the database if it already have the result available in database, if yes, return the result from database, else calculate new one and store result in table.
+
+Q4 - Develop the unit tests for all the API's using Junit, such that code coverage is more than 90%
+
+Please follow the best programming practices for java, e.g. naming, indentation, code commenting, best practices of class structures etc
+
+How to submit the assignment.
+1. Zip and send the source code of the project
+2. Send the details instructions about how to run your project
+3. Send the details instructions about how to run/invoke the APIs you built.
+4. A complete video demo of project with voice, where you demonstrate the working project (all api's) and then code run through of complete implementation.
+
+Thanks
