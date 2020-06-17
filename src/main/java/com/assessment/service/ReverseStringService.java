@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ReverseStringService
-{
-    @Autowired
-    ReverseStringRepository reverseStringRepository;
+public class ReverseStringService{
+    private ReverseStringRepository reverseStringRepository;
+
+    public ReverseStringService(ReverseStringRepository reverseStringRepository) {
+        this.reverseStringRepository = reverseStringRepository;
+    }
 
     public void save(ReverseString reverseString)
     {

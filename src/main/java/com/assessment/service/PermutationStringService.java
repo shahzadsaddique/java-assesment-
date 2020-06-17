@@ -6,33 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PermutationStringService
-{
-    @Autowired
+public class PermutationStringService{
     PermutationStringRepository permutationStringRepository;
 
-    public PermutationString save(PermutationString permutationString)
-    {
-        try
-        {
-            permutationString = permutationStringRepository.save(permutationString);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return permutationString;
+    public PermutationString save(PermutationString permutationString)    {
+        return  permutationString = permutationStringRepository.save(permutationString);
     }
 
     public PermutationString findByInput(String input)
     {
-        PermutationString permutationString = new PermutationString();
-        try
-        {
-            permutationString = permutationStringRepository.findByInput(input);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return permutationString;
+      return permutationStringRepository.findByInput(input);
     }
 }

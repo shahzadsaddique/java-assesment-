@@ -7,6 +7,5 @@ import org.springframework.data.repository.query.Param;
 
 public interface PermutationStringRepository extends JpaRepository<PermutationString, Integer>
 {
-    @Query("select ps from PermutationString ps where ps.input = :input")
-    PermutationString findByInput(@Param("input") String input);
+    PermutationString findByInput(String input);
 }

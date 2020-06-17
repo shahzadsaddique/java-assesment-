@@ -8,33 +8,21 @@ import org.springframework.stereotype.Service;
 @Service
 public class StringShufflingService
 {
-    @Autowired
-    StringShufflingRepository stringShufflingRepository;
+
+    private StringShufflingRepository stringShufflingRepository;
+
+    public StringShufflingService(StringShufflingRepository stringShufflingRepository) {
+        this.stringShufflingRepository = stringShufflingRepository;
+    }
 
     public StringShuffling save(StringShuffling string)
     {
-        StringShuffling ss = new StringShuffling();
-        try
-        {
-            ss = stringShufflingRepository.save(string);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return ss;
+        return  stringShufflingRepository.save(string);
     }
 
     public StringShuffling findByInput(String s1, String s2)
     {
-        StringShuffling  stringShuffling = new StringShuffling();
-        try
-        {
-            stringShuffling = stringShufflingRepository.findByS1andS2(s1,s2);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return stringShuffling;
+        return  stringShufflingRepository.findByS1andS2(s1,s2);
     }
 
 }

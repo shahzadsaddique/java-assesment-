@@ -9,8 +9,10 @@ public class PermutationString
 {
     @javax.persistence.Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
+
     @Column(name="id")
     private int id;
+
     @Column(name="input")
     private String input;
 
