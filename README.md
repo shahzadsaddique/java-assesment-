@@ -38,7 +38,7 @@ After creating the user you need to authenticate it and get JWT token to access 
    
 **API documentation**
 
-Swagger UI included to for API documentation, swagger can be access at: http://localhost:8080/swagger-ui.html
+Swagger UI included for API documentation, swagger can be access at: http://localhost:8080/swagger-ui.html
 
 **Database**
 
