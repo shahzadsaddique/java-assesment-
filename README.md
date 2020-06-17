@@ -11,7 +11,7 @@
 **Run the application**
 
 1. `cd` into project directory
-2. Run command `mvn clean spring-boot:run` (add `sudo` if required)
+2. Run command `mvn clean spring-boot:run`
 3. Application will be started on `http://localhost:8080` on your browser
 
 
