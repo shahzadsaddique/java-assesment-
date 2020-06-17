@@ -26,6 +26,7 @@ Before you access the API end points, First you need register a user by:
                  }
                  
 **Authenticate users & get JWT token**
+
 After creating the user you need to authenticate it and get JWT token to access APIs
    1. URL: http://localhost:8080/authenticate
    2. HTTP method: POST
