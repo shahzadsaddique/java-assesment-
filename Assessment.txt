@@ -22,8 +22,3 @@ Q4 - Develop the unit tests for all the API's using Junit, such that code covera
 
 Please follow the best programming practices for java, e.g. naming, indentation, code commenting, best practices of class structures etc
 
-How to submit the assignment.
-1. Zip and send the source code of the project
-2. Send the details instructions about how to run your project
-3. Send the details instructions about how to run/invoke the APIs you built.
-4. A complete video demo of project with voice, where you demonstrate the working project (all api's) and then code run through of complete implementation.
