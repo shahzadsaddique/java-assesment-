@@ -1,5 +1,3 @@
-Hi Muzammil,
-
 Please find below the Trial Assignment questions.
 
 Q1 - Please develop a Spring Boot based REST API project, which exposes the following operations
@@ -29,5 +27,3 @@ How to submit the assignment.
 2. Send the details instructions about how to run your project
 3. Send the details instructions about how to run/invoke the APIs you built.
 4. A complete video demo of project with voice, where you demonstrate the working project (all api's) and then code run through of complete implementation.
-
-Thanks
