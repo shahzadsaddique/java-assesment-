@@ -1,7 +1,7 @@
 package com.ControllerTests;
 
 
-import com.assessment.controller.HomeController;
+import com.assessment.controller.Home;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(controllers = HomeController.class)
-public class HomeControllerTest
+@WebMvcTest(controllers = Home.class)
+public class HomeTest
 {
     @Autowired
     MockMvc mockMvc;

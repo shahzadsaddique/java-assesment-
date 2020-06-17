@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class AuthController
+public class Auth
 {
     @GetMapping("/authentication")
     public String authrizeUser(@RequestBody User user)

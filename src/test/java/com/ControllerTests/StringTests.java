@@ -1,6 +1,5 @@
 package com.ControllerTests;
 
-import com.assessment.controller.StringController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +10,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(controllers = StringController.class)
-public class StringControllerTests
+@WebMvcTest(controllers = String.class)
+public class StringTests
 {
     @Autowired
     MockMvc mockMvc;

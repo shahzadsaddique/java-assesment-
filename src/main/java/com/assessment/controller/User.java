@@ -15,7 +15,7 @@ import java.util.*;
 @RestController
 @CrossOrigin(allowedHeaders = "*")
 @RequestMapping("/users")
-public class UserController
+public class User
 {
     @Autowired
     private UserService userService;

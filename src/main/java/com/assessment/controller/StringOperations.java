@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/string")
-public class StringController
+public class StringOperations
 {
     @Autowired
     ReverseStringService reverseStringService;
