@@ -1,4 +1,4 @@
-# java springboot APIs | JWT Security | H2 Database 
+# Java Springboot API | JWT Security | H2 Database 
 
 
 ## Getting started
